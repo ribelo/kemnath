@@ -1,0 +1,2 @@
+{:path ["src"]
+ :deps {com.github.haifengl/smile-math {:mvn/version "2.6.0"}}}
