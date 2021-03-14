@@ -1,8 +1,8 @@
 (ns ribelo.kemnath
   (:refer-clojure :exclude [min max]))
 
+(set! *warn-on-reflection* true)
 (set! *unchecked-math* :warn-on-boxed)
-
 
 (def ^:const PI
   #?(:clj  Math/PI
