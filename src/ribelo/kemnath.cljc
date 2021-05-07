@@ -6,11 +6,11 @@
 
 (def ^:const PI
   #?(:clj  Math/PI
-     :cljs (js/Math.PI)))
+     :cljs js/Math.PI))
 
 (def ^:const E
   #?(:clj  Math/E
-     :cljs (js/Math.E)))
+     :cljs js/Math.E))
 
 (def ^:const MAX-DOUBLE
   #?(:clj  Double/MAX_VALUE
